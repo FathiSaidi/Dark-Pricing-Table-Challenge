@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.container {
+    width: 1080px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box {
+    background-color: #242424;
+    color: #ffffff;
+    width: 270px;
+    text-align: center;
+    border: 1px solid #383838;
+}
+
+.box:nth-child(2) {
+    border-left:none;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.price span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p {
+    color: #9b9b9b;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px;
+    border-bottom: 1px solid #2A2A2A;
+}
+
+p:nth-child(1) {
+    border-top: 1px solid #383838;
+    border-bottom: 1px solid #383838;
+}
+
+p:nth-child(even) {
+    background-color: #2A2A2A;;
+}
+
+button {
+    background-color: #242424;
+    color: #ffffff;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    padding: 5px 25px;
+    margin: 40px 0px;
+    cursor: pointer;
+}
+
+.premium {
+    background-color: #03A9F4;
+    border: none;
+    padding: 20px 0px;
+}
+
+.premium button {
+    background-color: #03A9F4;
+}
+
+.premium p {
+    background-color: #03A9F4;
+    color: #fff;
+    border-bottom: 1px solid #30beff;
+}
+
+.premium p:nth-child(1) {
+    border-top: 1px solid #30beff;
+    border-bottom: 1px solid #30beff;
+}
